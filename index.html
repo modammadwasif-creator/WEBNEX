@@ -1,4 +1,4 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -650,176 +650,233 @@
         </section>
 
 
-        <!-- ================= CONTACT ================= -->
+       <!-- ================= CONTACT ================= -->
 
-        <section class="section contact" id="contact">
+<section class="section contact" id="contact">
 
-            <div class="container">
+    <div class="container">
 
-                <div class="section-heading">
+        <div class="section-heading">
 
-                    <span>GET IN TOUCH</span>
+            <span>GET IN TOUCH</span>
 
-                    <h2>Let's <em>Talk</em></h2>
+            <h2>Let's <em>Talk</em></h2>
 
-                    <p>
-                        Have an idea? Tell us about it and let's turn it
-                        into something great.
-                    </p>
+            <p>
+                Have an idea? Tell us about it and let's turn it
+                into something great.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+            <div class="contact-info">
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <small>Email</small>
+                        <a href="mailto:modammadwasif@gmail.com">
+                            modammadwasif@gmail.com
+                        </a>
+                    </div>
 
                 </div>
 
 
-                <div class="contact-grid">
+                <div class="contact-item">
 
-                    <div class="contact-info">
-
-                        <div class="contact-item">
-
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-
-                            <div>
-                                <small>Email</small>
-                                <a href="mailto:hello@webnex.com">
-                                    hello@webnex.com
-                                </a>
-                            </div>
-
-                        </div>
-
-
-                        <div class="contact-item">
-
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-
-                            <div>
-                                <small>Phone</small>
-                                <a href="tel:+923000000000">
-                                    +92 300 0000000
-                                </a>
-                            </div>
-
-                        </div>
-
-
-                        <div class="contact-item">
-
-                            <div class="contact-icon">
-                                <i class="fas fa-location-dot"></i>
-                            </div>
-
-                            <div>
-                                <small>Location</small>
-                                <span>Karachi, Pakistan</span>
-                            </div>
-
-                        </div>
-
-
-                        <div class="social-links">
-
-                            <a href="#" aria-label="Facebook">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-
-                            <a href="#" aria-label="Instagram">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-
-                            <a href="#" aria-label="GitHub">
-                                <i class="fab fa-github"></i>
-                            </a>
-
-                            <a href="#" aria-label="LinkedIn">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-
-                        </div>
-
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
                     </div>
 
+                    <div>
+                        <small>Phone</small>
+                        <a href="tel:+923000000000">
+                            +92 300 0000000
+                        </a>
+                    </div>
 
-                    <form class="contact-form" id="contactForm">
-
-                        <div class="form-row">
-
-                            <div class="form-group">
-                                <label for="name">Your Name</label>
-                                <input
-                                    type="text"
-                                    id="name"
-                                    name="name"
-                                    placeholder="Enter your name"
-                                    required
-                                >
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email">Your Email</label>
-                                <input
-                                    type="email"
-                                    id="email"
-                                    name="email"
-                                    placeholder="Enter your email"
-                                    required
-                                >
-                            </div>
-
-                        </div>
+                </div>
 
 
-                        <div class="form-group">
+                <div class="contact-item">
 
-                            <label for="subject">Subject</label>
+                    <div class="contact-icon">
+                        <i class="fas fa-location-dot"></i>
+                    </div>
 
-                            <input
-                                type="text"
-                                id="subject"
-                                name="subject"
-                                placeholder="What is your project about?"
-                                required
-                            >
+                    <div>
+                        <small>Location</small>
+                        <span>Karachi, Pakistan</span>
+                    </div>
 
-                        </div>
-
-
-                        <div class="form-group">
-
-                            <label for="message">Message</label>
-
-                            <textarea
-                                id="message"
-                                name="message"
-                                rows="6"
-                                placeholder="Tell us about your project..."
-                                required
-                            ></textarea>
-
-                        </div>
+                </div>
 
 
-                        <button type="submit" class="btn btn-primary submit-btn">
+                <div class="social-links">
 
-                            Send Message
-                            <i class="fas fa-paper-plane"></i>
+                    <a href="#" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
 
-                        </button>
+                    <a href="#" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
 
-                    </form>
+                    <a href="#" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
 
                 </div>
 
             </div>
 
-        </section>
 
-    </main>
+            <!-- ================= WEB3FORMS CONTACT FORM ================= -->
+
+            <form
+                class="contact-form"
+                id="contactForm"
+                action="https://api.web3forms.com/submit"
+                method="POST"
+            >
+
+                <!-- Web3Forms Access Key -->
+                <input
+                    type="hidden"
+                    name="access_key"
+                    value="acfcd790-b5c8-4902-9b6b-93928521d8e4"
+                >
+
+                <!-- Email Subject -->
+                <input
+                    type="hidden"
+                    name="subject"
+                    value="New Message From WEBNEX Website"
+                >
+
+                <!-- Sender Name -->
+                <input
+                    type="hidden"
+                    name="from_name"
+                    value="WEBNEX Website"
+                >
+
+                <!-- Redirect disabled -->
+                <input
+                    type="hidden"
+                    name="redirect"
+                    value="false"
+                >
 
 
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Your Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="subjectInput">
+                        Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subjectInput"
+                        name="user_subject"
+                        placeholder="What is your project about?"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Tell us about your project..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary submit-btn"
+                    id="submitBtn"
+                >
+
+                    Send Message
+                    <i class="fas fa-paper-plane"></i>
+
+                </button>
+
+
+                <!-- Result message -->
+                <div id="formResult"></div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
     <!-- ================= FOOTER ================= -->
 
     <footer class="footer">
